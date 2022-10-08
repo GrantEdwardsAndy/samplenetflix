@@ -1,0 +1,58 @@
+*{
+    /* background-color: rgb(3, 3, 3); */
+}
+
+.row-image{
+    object-fit:fill;
+    width:10rem;
+    height:250px;
+    max-height:200px;
+    transition: transform 450ms;
+
+}
+
+.row-image:hover {
+    transform: scale(1.08);
+}
+
+.nav-row{
+    margin-top: 5px;
+    padding-top:2px;
+    font-size: 12px;
+    width:150px;
+    max-width: 150px;
+    color:white;
+}
+
+    /* .title{
+        margin-top: 0px;
+    } */
+
+    .row-text{
+        color:white;
+    }
+
+    .submit_button, .input-text{
+        background-color:white;
+    }
+
+    .rating_en{
+        display:flex;
+        justify-content: space-around;
+    }
+
+    .rating_en >p{
+        background-color: brown;
+        width:35px;
+        border-radius: 10px;    
+    }
+
+    .banner{
+       object-fit: contain;
+       height: 448px;
+       background-size:cover;
+       /* background-position: */
+       position:top;
+       color:white;
+       padding: 20px;
+    }

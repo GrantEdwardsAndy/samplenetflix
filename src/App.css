@@ -1,0 +1,20 @@
+.main{
+    display:flex;
+    margin-left: 10px;
+    gap: 15px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.light{
+    background-color: white;
+    color: black;
+}
+
+.dark{
+    background-color: black;
+    color:white;
+}
+
+/* Or you can use display: grid; grid-template-columns:1fr 1fr 1fr 1fr; */
